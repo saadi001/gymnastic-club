@@ -1,0 +1,89 @@
+[
+     {
+       "id": "0001",
+       "name": "Treadmill",
+       "description": "This is best treadmill in your area. We can guarantee it to you",
+       "trainer": "Saadi vai",
+       "time": 60,
+       "age": "20-50",
+       "img": "https://i.postimg.cc/qRthwHHz/treadmil.jpg",
+       "price": 420,
+       "ratings": 4,
+       "quantity": 5
+     },
+     {
+       "id": "0002",
+       "name": "Foam Roller",
+       "description": "This is best Foam Roller in your area. We can guarantee it to you",
+       "trainer": "Hero vai",
+       "time": 50,
+       "age": "25-40",
+       "img": "https://i.postimg.cc/rp1Yp3PR/foam-roller.jpg",
+       "price": 420,
+       "ratings": 5,
+       "quantity": 5
+     },
+     {
+       "id": "0003",
+       "name": "Jump Rope",
+       "description": "This is best Jump Rope in your area. We can guarantee it to you",
+       "trainer": "zero vai",
+       "time": 30,
+       "age": "20-30",
+       "img": "https://i.postimg.cc/Nj78wqMK/jump-rope.jpg",
+       "price": 420,
+       "ratings": 5,
+       "quantity": 5
+     },
+     {
+       "id": "0004",
+       "name": "KattleBell",
+       "description": "This is best Kattlebell in your area. We can guarantee it to you",
+       "trainer": "alom vai",
+       "time": 70,
+       "age": "20-50",
+       "img": "https://i.postimg.cc/JnbMpqKC/kattlebell.jpg",
+       "price": 420,
+       "ratings": 5,
+       "quantity": 5
+     },
+     {
+       "id": "0005",
+       "name": "Machine fly",
+       "description": "This is best machine fly in your area. We can guarantee it to you",
+       "trainer": "jahid vai",
+       "time": 45,
+       "age": "20-35",
+       "img": "https://i.postimg.cc/65wHF065/machine-fly.jpg",
+       "price": 420,
+       "ratings": 5,
+       "quantity": 5
+     },
+     {
+       "id": "0006",
+       "name": "Stationary Bicycle",
+       "description": "This is best bicycle in your area. We can guarantee it to you",
+       "trainer": "jasim vai",
+       "time": 40,
+       "age": "20-30",
+       "img": "https://i.postimg.cc/1z9VQ8nF/stationary-bicycle.jpg",
+       "price": 420,
+       "ratings": 5,
+       "quantity": 5
+     },
+     {
+       "id": "0007",
+       "name": "Dumbell",
+       "description": "This is best Dumbell in your area. We can guarantee it to you",
+       "trainer": "jumboo vai",
+       "time": 40,
+       "age": "20-30",
+       "img": "https://i.postimg.cc/c4rVFhFg/dumbell.jpg",
+       "price": 420,
+       "ratings": 5,
+       "quantity": 5
+     }
+     
+
+
+]
