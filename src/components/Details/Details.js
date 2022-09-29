@@ -1,13 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
 import img from '../../images/image1.jpg';
 import './Details.css';
 
 const Details = ({time}) => {
-     console.log(time);
+     // console.log(time);
           let totalTime = 0;
           for(const exerciseTime of time){
                totalTime = totalTime + exerciseTime;
           }
+
+          const [bTime, setBTime] = useState(0);
+
+          const tenSec = () => setBTime(10);
+          const twentySec = () => setBTime(20);
+          const thirtySec = () => setBTime(30);
+          const fortySec = () => setBTime(40);
+
      
      return (
           <div className='details'>
@@ -38,10 +46,10 @@ const Details = ({time}) => {
                <h3>Add A Break</h3>
 
                <div className='time'>
-                    <div className='single-time'><span id=''>10</span> s</div>
-                    <div className='single-time'>20s</div>
-                    <div className='single-time'>30s</div>
-                    <div className='single-time'>40s</div>
+                    <div onClick={tenSec} className='single-time'>10s</div>
+                    <div onClick={twentySec} className='single-time'>20s</div>
+                    <div onClick={thirtySec} className='single-time'>30s</div>
+                    <div onClick={fortySec} className='single-time'>40s</div>
                </div>
 
                <h3>Exercise Details</h3>
@@ -52,7 +60,7 @@ const Details = ({time}) => {
                </div>
                <div className='ex-time'>
                     <h5>Break time</h5>
-                    <p>00 seconds</p>
+                    <p>{bTime} seconds</p>
                </div>
 
                <button>Activity completed</button>
