@@ -6,6 +6,13 @@ import './Gym.css';
 
 const Gym = () => {
      const [equipments, setEquipment] = useState([]);
+     const [time, setTime] = useState([]);
+
+     const addTime = (para) =>{
+          const totalTime = [...time,para];
+          setTime(totalTime);
+          // console.log(totalTime);
+     }
 
      useEffect(() =>{
           fetch('gym.json')
@@ -22,12 +29,14 @@ const Gym = () => {
                               equipments.map( equipment => <Equipment 
                                    key={equipment.id}
                                    equipment={equipment}
+                                   addTime ={addTime}
+
                                    ></Equipment>)
                          }
                     </div>
                </div>
                <div className="details-container">
-                    <Details></Details>
+                    <Details time={time}></Details>
                </div>
           </div>
      );

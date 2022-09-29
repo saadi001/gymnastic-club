@@ -3,7 +3,7 @@ import './Equipment.css';
 
 
 const Equipment = (props) => {
-     console.log(props.equipment)
+     // console.log(props.equipment)
      const { img, name, description, age, time } = props.equipment;
      return (
           <div className='equipment-container'>
@@ -12,7 +12,7 @@ const Equipment = (props) => {
                <small>{description}</small>
                <p>For Age: {age}</p>
                <p>Time required: {time}</p>
-               <button>Add to list</button>
+               <button onClick={()=>props.addTime(time)}>Add to list</button>
           </div>
      );
 };
