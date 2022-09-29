@@ -1,0 +1,7 @@
+.details{
+     position: sticky;
+     top: 0px;
+}
+.name-location{
+     display: flex;
+}

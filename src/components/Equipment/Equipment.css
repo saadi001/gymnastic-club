@@ -1,0 +1,27 @@
+.equipment-container{
+     background-color: white;
+     padding: 10px;
+     border-radius: 10px;
+     
+}
+.equipment-container img{
+     width: 100%;
+     height: 200px;
+     object-fit: cover;
+     border-radius: 10px 10px 0 0;
+
+}
+.equipment-container p{
+     line-height: 10px;
+     
+}
+.equipment-container button{
+     border: none;
+     color: white;
+     width: 100%;
+     margin-top: 15px;
+     padding: 12px;
+     border-radius: 5px;
+     cursor: pointer;
+     background-color: rgba(27, 27, 250, 0.644);
+}
